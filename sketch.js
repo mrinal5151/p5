@@ -12,7 +12,7 @@ function setup(){
   createCanvas(800, 800);
 }
 function draw(){
-  col = map(mouseX, 0, 400, 0, 255);
+  col = map(mouseX, 0, width, 0, 255);
   background(col);
   noStroke();
   fill(108, 187, 255);
