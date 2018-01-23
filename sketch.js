@@ -16,7 +16,7 @@ function draw(){
   background(col);
   noStroke();
   fill(255, 0, 0, 100);
-  ellipse(width/2, circle.y, circle.diameter, circle.diameter);
-  circle.y+=2;
+  ellipse(mouseX, circle.y, circle.diameter, circle.diameter);
+  
   //colour.r--;colour.g--;colour.b--;
 }
