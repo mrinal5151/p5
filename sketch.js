@@ -5,7 +5,7 @@ var colour={
 };
 var circle = {
   x : 0,
-  y : height/2,
+  y : 800/2,
   diameter : 50
 };
 function setup(){
