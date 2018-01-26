@@ -10,7 +10,7 @@ var circle = {
 };
 var s=0;
 function setup(){
-  createCanvas(600, 600);
+  createCanvas(1280, 800);
 }
 function draw(){
   
