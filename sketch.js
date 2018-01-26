@@ -22,7 +22,7 @@ function draw(){
   s++;  
   noStroke();
   fill(108, 187, 255);
-  ellipse(mouseX, circle.y, circle.diameter, circle.diameter);
+  ellipse(mouseX, mouseY, circle.diameter, circle.diameter);
   
 
   //colour.r--;colour.g--;colour.b--;
